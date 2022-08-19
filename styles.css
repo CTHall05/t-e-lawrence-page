@@ -1,1 +1,68 @@
 /* Copy and paste your CSS from CodePen into here */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+    color: #e1bf92;
+}
+
+/* Tribute Title */
+
+#title {
+    text-align: center;
+    padding: 20px;
+    background-color: #b87656;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+  
+#img-div {
+    background: #d58253;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+  
+img {
+    display: block;
+}
+
+#img-caption {
+    font-weight: bold;
+}
+
+/* Tribute Information Section */
+
+#tribute-info {
+    background-color: #53505f;
+    padding: 30px;
+}
+
+#tribute-info-list-container h3 {
+    text-align: center;
+}
+
+#tribute-info-list-container {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+}
+
+/* Link Section */
+
+#tribute-page-link-container {
+    background-color: #b87656;
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+}
